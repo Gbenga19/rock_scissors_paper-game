@@ -19,7 +19,7 @@ while True:
         player = input("Enter an option -- Rock, Scissors or Paper: ")
            
     if player == computer:
-        print(f"Computer {computer} : player {player}")
+        print(f"Computer ({computer}) : player ({player})")
         print('Tie, Play again')
         player = input("Enter an option -- Rock, Scissors or Paper: ")
 
